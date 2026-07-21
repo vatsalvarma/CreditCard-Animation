@@ -191,11 +191,11 @@ export default function App() {
 
           {/* Phase 1 Elements */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
-            <img ref={phoneRef} src="/images/phone.png" alt="Phone" className="w-[300px] object-contain drop-shadow-2xl mix-blend-lighten" />
+            <img ref={phoneRef} src={`${import.meta.env.BASE_URL}images/phone.png`} alt="Phone" className="w-[300px] object-contain drop-shadow-2xl mix-blend-lighten" />
 
-            <img ref={planeRef} src="/images/plane.png" alt="Plane" className="absolute w-[250px] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] mix-blend-lighten" />
-            <img ref={cartRef} src="/images/shopping_cart.png" alt="Cart" className="absolute w-[200px] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] mix-blend-lighten" />
-            <img ref={giftRef} src="/images/gift_box.png" alt="Gift" className="absolute w-[180px] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] mix-blend-lighten" />
+            <img ref={planeRef} src={`${import.meta.env.BASE_URL}images/plane.png`} alt="Plane" className="absolute w-[250px] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] mix-blend-lighten" />
+            <img ref={cartRef} src={`${import.meta.env.BASE_URL}images/shopping_cart.png`} alt="Cart" className="absolute w-[200px] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] mix-blend-lighten" />
+            <img ref={giftRef} src={`${import.meta.env.BASE_URL}images/gift_box.png`} alt="Gift" className="absolute w-[180px] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] mix-blend-lighten" />
           </div>
 
           <div ref={text1Ref} className="absolute bottom-16 text-center w-full z-20 px-4">
@@ -205,8 +205,8 @@ export default function App() {
 
           {/* Phase 2 Elements */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30">
-            <img ref={readerRef} src="/images/card_reader.png" alt="Card Reader" className="absolute w-[350px] object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]" />
-            <img ref={cardRef} src="/images/credit_card.png" alt="Credit Card" className="absolute w-[350px] object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]" />
+            <img ref={readerRef} src={`${import.meta.env.BASE_URL}images/card_reader.png`} alt="Card Reader" className="absolute w-[350px] object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]" />
+            <img ref={cardRef} src={`${import.meta.env.BASE_URL}images/credit_card.png`} alt="Credit Card" className="absolute w-[350px] object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]" />
             
             {/* Success Tick */}
             <div className="absolute -translate-y-[210px] flex items-center justify-center">
