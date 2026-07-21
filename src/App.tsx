@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
-import { Grid, Search, CheckCircle } from 'lucide-react';
+import { Grid, Search } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
