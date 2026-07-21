@@ -1,4 +1,5 @@
-# React + TypeScript + Vite
+# Visit: https://vatsalvarma.github.io/CreditCard-Animation/
+<img width="1895" height="845" alt="image" src="https://github.com/user-attachments/assets/0cd9c29f-2dc5-4426-9986-2650061535e0" />
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
